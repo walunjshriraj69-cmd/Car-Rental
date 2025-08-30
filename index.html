@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+  <header>
+    <h1>Quick Car Rent </h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#rents">Rents</a></li>
+        <li><a href="#booking">Book Now</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+
+  <section id="home" class="hero">
+    <h2>Your Ride, On Your Terms</h2>
+    <a href="#booking" class="btn">Book Now</a>
+  </section>
+
+  <section id="fleet" class="fleet">
+    <h2 id="for">Our Fleet</h2>
+
+    <div class="car-card">
+      <img src="wagnor.jpg" alt="Sedan">
+      <h3>Wagnor</h3>
+      <p>From ₹2,000/day</p>
+      <p>50km</p>
+      <a href="#booking" class="btn small">Rent</a>
+    </div>
+
+    <div class="car-card">
+      <img src="mahindra.jpg" alt="Sedan">
+      <h3>Mahindra</h3>
+      <p>From ₹4,000/day</p>
+      <p>50km</p>
+      <a href="#booking" class="btn small">Rent</a>
+    </div>
+
+    <div class="car-card">
+      <img src="swift.jpg" alt="Sedan">
+      <h3>Swift</h3>
+      <p>From ₹3,000/day</p>
+      <p>50km</p>
+      <a href="#booking" class="btn small">Rent</a>
+    </div>
+    
+  </section>
+
+  <section id="booking" class="booking-form">
+    <h2>Book a Car</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="pickup">Pick-Up Date:</label>
+      <input type="date" id="pickup" required>
+
+      <label for="return">Return Date:</label>
+      <input type="date" id="return" required>
+
+      <label for="model">Choose a Car:</label>
+      <select id="model" required>
+        <option>Wagnor</option>
+        <option>Swift</option>
+        <option>Mahindra</option>
+        <option>Scarpio</option>
+      </select>
+
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>@ 2025 QuickRent. All Rights Reserved.</p>
+  </footer>
+
+
+</body>
+</html>
